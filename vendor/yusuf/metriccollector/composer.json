@@ -1,0 +1,21 @@
+{
+    "name": "yusuf/metriccollector",
+    "description": "Metrics Collector Package for Laravel",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Yusuf Yilmaz",
+            "email": "yiziyilmaz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.75"
+    },
+    "autoload": {
+        "psr-4": {
+            "yusuf\\metriccollector\\": "src/"
+        }
+    }
+}
